@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 // ZingMp3Router
-const ZingMp3Router = require("./routers/api/ZingRouter")
+const ZingMp3Router = require("./src/routers/api/ZingRouter")
 app.use("/api", cors(), ZingMp3Router)
 
 // Page Error
