@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 
-const ZingController = require("../../controllers/ZingController")
+const ZingController = require("../../../controllers/ZingController")
 
 // getSong
 router.get("/song", ZingController.getSong)
